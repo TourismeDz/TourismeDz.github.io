@@ -1,0 +1,156 @@
+
+
+ /* bare menu */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ /* Change couleur menu */
+ li a:hover {
+  background-color: rgb(23, 24, 24);
+ }
+
+  /* barre menu */
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+
+/* Pour la page du Sahara */
+.ol {
+  color:black; 
+  font-size: 145%;
+  margin-left: 85px;
+  margin-right: 680px;
+  text-align: justify;
+}
+
+/* Pour la page des monuments */
+.om {
+  color:rgb(248, 245, 245); 
+  font-size: 145%;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+/* Pour la page des villes touristiques */
+.os { 
+  font-size:160%; 
+  color: black; 
+  margin-left: 100px;
+}
+
+/* Pour la page du litoral algérien*/
+.ob {
+  color: white; 
+  font-size:25px;
+  margin-right: 85px;
+  margin-left: 85px;
+}
+
+ /* Pour la page des villes touristiques */
+.ot {
+  color:wheat; 
+  font-size:25px;
+  margin-left: 85px;
+  margin-right: 100px;
+}
+
+ 
+  
+  .rectangle {
+    background-color: white;
+    font-size: 25px ;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.imagstyle {
+  display: block; 
+  text-align:right;  
+  margin: auto;
+}
+
+/* photo Ville touristique */
+.imag1style {
+  float: right;
+}
+
+ /* Large desktop */
+@media (min-width: 1200px) { 
+  body    {
+ 
+      background-color: white;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1080px) { 
+  body    {
+     
+      background-color: rgb(128, 58, 58);
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 577px) { 
+  body    {
+          background-color: rgb(112, 112, 182);
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  body    {
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color: rgb(42, 192, 192);
+  }
+}
+div
+{ 
+ 
+  margin: auto;
+  width:50%
+}
+
+h2
+{ 
+color:red; font-size:40px
+}
+
+/* Page des monument */
+.maclasspink{ 
+  background-color: white;
+  color: black;
+  text-align:  center;
+}
+
+/* page de litoral */
+.classpink{ 
+  background-color: white;
+  color:black;
+  text-align:  center;
+}
+

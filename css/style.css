@@ -114,7 +114,11 @@ align-items: center;
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 577px) { 
+@media (max-width: 577px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  } 
   body    {
           background-color: rgb(112, 112, 182);
   }
